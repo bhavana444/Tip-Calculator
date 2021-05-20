@@ -1,0 +1,136 @@
+.random{
+  
+  @media only screen and(min-width:768px){
+    width:75%;
+    
+}
+@media only screen and(min-width:992px){
+  width:50%;
+}
+}
+.container,.result-container {
+  width: 450px;
+  height: 250px;
+  background-color: #69480f;
+  
+  border: 2px solid black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  
+  margin-left: auto;
+ background: rgb(214, 165, 145);
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+.result-container{
+  
+  
+  height: 250px;
+  
+ 
+  margin: 20px auto;
+  margin-top:20px;
+}
+
+.txt {
+  top: 10px;
+  font-size: 15px;
+  color: rgb(15, 153, 10);
+  position: relative;
+  left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  
+}
+body {
+  /*background-color: #3d3d42;*/
+  font-family: "Aclonica", sans-serif;
+  background: #070000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #070000, #848484, #070000);
+  background: -o-linear-gradient(left, #070000, #848484, #070000);
+  background: linear-gradient(
+    to right,
+    #070000,
+    #848484,
+    #070000
+  ); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  background-attachment: fixed;
+}
+
+#restip,#restot,#resper,#billamt,#peopleamt,#serviceQual {
+  width: 40%;
+  text-align:center;
+  padding: 5px 5px 8px 8px;
+  margin-top: 10px;
+  margin-left: 100px;
+  color: rgb(255, 0, 0);
+  background-color: #e7ebdb;
+  font-size: 14px;
+  display:inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.container h1,.result-container h1 {
+  width: 446px;
+  height: 50px;
+  background-color:rgb(106, 136, 233);
+  margin-left: -15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: 500;
+  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-bottom:10px;
+  text-align: center;
+ 
+ 
+  
+  
+  position: relative;
+  box-sizing: border-box;
+}
+.result-container h1 {
+  
+  margin-left: 0px;
+  
+}
+.result-container label{
+  margin-left: 10px;
+}
+#submit,#clear {
+ 
+  position: relative;
+  left: 10px;
+  
+  font-size: 17px;
+  width: 80px;
+  background: firebrick;
+  box-shadow: 0px 0px 13px #000000;
+}
+
+#clear:hover,#submit:hover{
+  -webkit-transition: .75s ease-in-out;
+  -o-transition: .75s ease-in-out;
+  transition: .75s ease-in-out;
+  background-color: transparent;
+  font-size: 25px;
+  
+  color: #4b83b1;
+ 
+  box-shadow: none;
+  border: none;
+  border-radius: 100px;
+}
+#clear {
+top:60px;
+  left: 150px;
+
+  
+}
+
+
